@@ -5,6 +5,7 @@ import { getCurrentUser } from "./appwrite";
 interface User {
   email: string;
   avatar: string;
+  name: string;
 }
 
 interface GlobalContextType {
